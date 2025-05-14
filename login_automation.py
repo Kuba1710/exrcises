@@ -14,6 +14,7 @@ CENTRAL_URL = "https://c3ntrala.ag3nts.org/"
 USERNAME = "tester"
 PASSWORD = "574e112a"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+API_KEY = os.getenv("API_KEY")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-3.5-turbo")
 
 def extract_question(html_content):
